@@ -3,4 +3,5 @@ FROM centos:6
 MAINTAINER hokuma
 
 RUN yum install -y httpd
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+ENTRYPOINT ["/usr/sbin/httpd"]
+CMD ["-D", "FOREGROUND"]
