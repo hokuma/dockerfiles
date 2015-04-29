@@ -1,2 +1,2 @@
 # Dockerfiles
-勉強会等で使うためのサンプル
+My Custom Images
